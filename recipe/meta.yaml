@@ -1,4 +1,4 @@
-{% set version = '1.4.4' %}
+{% set version = "1.4.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/foreach_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/foreach/foreach_{{ version }}.tar.gz
-  sha256: c0a71090d5b70b9a95a6936091dabae9c26e1fc6b9609bfe5fb6346033905e48
+  sha256: 95632c0b1182fc01490718d82fa3b2bce864f2a011ae53282431c7c2a3f5f160
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
