@@ -1,11 +1,11 @@
-About r-foreach
-===============
+About r-foreach-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-foreach-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RevolutionAnalytics/foreach
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-foreach-feedstock/blob/main/LICENSE.txt)
 
 Summary: Support for the foreach looping construct.  Foreach is an idiom that allows for iterating over elements in a collection, without the use of an explicit loop counter.  This package in particular is intended to be used for its return value, rather than for its side effects.  In that sense, it is similar to the standard lapply function, but doesn't require the evaluation of a function.  Using foreach without side effects also facilitates executing the loop in parallel.
 
